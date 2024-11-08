@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/unkown"
+    android:layout_height="match_parent"
+    tools:context=".NutritionBuild">
+
+    <CheckBox
+        android:id="@+id/Cksupplements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supplements"
+        android:textSize="26sp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+/>
+    <CheckBox
+        android:id="@+id/CkWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Proper water intake and benefits"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/CkHealthyEating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healthy Eating"
+        android:layout_marginLeft="5dp"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/ButtounViewSelection"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="View Selection"
+        android:textSize="26sp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/myTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />.
+
+</LinearLayout>
